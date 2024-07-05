@@ -72,7 +72,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
       <section class="flex justify-between items-center">
         <div>
-          <button type="submit" class="bg-blue-600 px-4 py-2 text-white rounded-md text-lg">Submit</button>
+          <button type="submit" class="bg-blue-600 px-4 py-2 text-white rounded-md text-lg">Create Post</button>
         </div>
 
         <div>

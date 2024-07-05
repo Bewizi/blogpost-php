@@ -91,7 +91,7 @@ if ($isUpdateRequest) {
         <label for="title" class="block mb-2 text-xl">Content:</label>
         <!-- <input type="text" name="title" id="content" class="bg-gray-
           700 border border-gray-600 rounded p-2 w-full"> -->
-        <textarea name="content" id="content" class="bg-gray-100 border border-gray-600 rounded p-2 text-lg" rows="8" cols="50" value="<?= htmlspecialchars($post['content']) ?>" placeholder="Write  your blog post here"></textarea>
+        <textarea name="content" id="content" class="bg-gray-100 border border-gray-600 rounded p-2 text-lg outline-none" rows="8" cols="50" value="<?= htmlspecialchars($post['content']) ?>" placeholder="Write  your blog post here"></textarea>
 
       </div>
 
@@ -104,7 +104,7 @@ if ($isUpdateRequest) {
 
       <section class="flex justify-between items-center">
         <div>
-          <button type="submit" class="bg-blue-600 px-4 py-2 text-white rounded-md text-lg">Submit</button>
+          <button type="submit" class="bg-blue-600 px-4 py-2 text-white rounded-md text-lg">Update Post</button>
         </div>
 
         <div>
